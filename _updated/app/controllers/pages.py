@@ -4,9 +4,9 @@ from app.forms import *
 blueprint = Blueprint('pages', __name__)
 
 
-################
-#### routes ####
-################
+############################
+#### routes/ decorators ####
+############################
 
 
 @blueprint.route('/')
